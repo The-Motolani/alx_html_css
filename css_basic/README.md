@@ -26,8 +26,6 @@ ALX_HTML_CSS/
 ├── [base.css](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/base.css) # Base stylesheet with provided rules \
 └── [styles.css](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/styles.css) # Custom stylesheet with flexbox + extra styling
 
----
-
 ## Requirements
 
 To run this project locally, you need:  
