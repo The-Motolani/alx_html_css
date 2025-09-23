@@ -17,15 +17,13 @@ This repository also follows coding constraints like:
 - No **NodeJS, React, VueJS, Bootstrap, etc.**  
 - Code is **W3C compliant** and validates with [W3C-Validator](https://github.com/alx-tools/W3C-Validator).  
 
----
-
 ## Project Structure  
 
 ALX_HTML_CSS/
-└── CSS_BASIC/
-├── [index.html](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/index.html) # Homepage with intro content.
-├── [tweets.html](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/tweets.html) # Secondary page (tweets/article section)
-├── [base.css](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/base.css) # Base stylesheet with provided rules
+└── CSS_BASIC/ \
+├── [index.html](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/index.html) # Homepage with intro content. \
+├── [tweets.html](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/tweets.html) # Secondary page (tweets/article section) \
+├── [base.css](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/base.css) # Base stylesheet with provided rules \
 └── [styles.css](https://github.com/The-Motolani/alx_html_css/blob/main/css_basic/styles.css) # Custom stylesheet with flexbox + extra styling
 
 ---
