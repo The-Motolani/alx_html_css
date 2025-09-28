@@ -110,6 +110,10 @@ h1 + .tags{
     margin-top: 0;
     text-transform: uppercase;
 }
+.teacher-pics p{
+    font-family: "source-san-pro";
+    font-style: italic;
+}
 
 button{
     background: #C271FF;
@@ -217,6 +221,7 @@ button{
     margin-bottom: 1rem;
     line-height: 1.5;
     text-align: left;
+     color: rgba(0, 0, 0, 0.5)
 }
 .teacher{
     display: flex;
@@ -246,44 +251,110 @@ button{
     font-size: 0.875rem;
     font-family: "source-sans-pro-semibold", sans-serif;
 }
-/*
-.video1{
-    display: flex;
-    justify-content: left;
-    width: 255px;
-    height: 335px;
-    flex-direction: column;
-    text-align: left;
+.time p{
+    color: #C271FF;
 }
-
-
-.video1 p{
-    text-align: right;
+.membership{
+    padding: 4rem 4.5rem;  
+    line-height: 2rem;
+   
 }
-    /*
-.video1 h3{
+.membership h2 span:first-of-type{
     font-family: "source-sans-pro-semibold", sans-serif;
-    font-size: 1.25rem;
-    margin-top: 1rem;
 }
-.video1 p{
-    font-family: "source-sans-pro", sans-serif;
+
+.membership h2{
+    font-family: "source-sans-pro-extralight", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.membership h3{
+    font-family: "source-sans-pro-semibold", sans-serif;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.membership p{
+    font-family: "source-sans-extralight", sans-serif;
     font-size: 0.875rem;
-    margin-top: 0.5rem;
+    margin-bottom: 1rem;
     line-height: 1.5;
+    text-align: center;
 }
-.video1 div{
+.membership-benefits{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 0.5rem;
+    text-align: center;
+    
 }
-.video1 div p{
-    font-family: "source-sans-pro-semibold", sans-serif;
+
+.benefit{
+    padding: 3.9rem;
+}
+
+.membership button{
+    margin-top: 1rem;
+    padding: 15px 20px;
+    font-size: 0.875rem;}
+
+.faq{
+    background-color: white;
+    color: #071629;
+    
+}
+.faq h2{
+    font-family: "source-sans-pro-light", sans-serif;
+    font-size: 3.75rem;
+    color: #071629;
+    padding-top: 3rem;
+    
+}
+
+.faq h3{
+    font-family: "source-sans-pro-bold", sans-serif;
+    font-size: 1em;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.faq p{
+    font-family: "source-sans-pro", sans-serif;
     font-size: 0.875rem;
-    color: #C271FF;
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+     color: rgba(0, 0, 0, 0.5)
 }
-.video1 div i{
-    color: #C271FF;
-}*/
+
+.faq-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem 8.5rem;  
+    
+}
+.faq .row{
+    padding: 3rem;
+}
+footer section{
+    padding: 9rem 9rem 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 0.75;
+    color: grey;
+    font-family: "source-sans-pro";
+}
+
+.fa-brands{
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+}
