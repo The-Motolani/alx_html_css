@@ -1,0 +1,289 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@font-face {
+    font-family: "source-sans-pro-bold";
+    src: url("Resources/source-sans-pro/SourceSansPro-Bold.otf") format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "source-sans-pro-semibold";
+    src: url("Resources/source-sans-pro/SourceSansPro-Semibold.otf") format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "source-sans-pro-light";
+    src: url("Resources/source-sans-pro/SourceSansPro-Light.otf") format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: "source-sans-pro-extralight";
+    src: url("Resources/source-sans-pro/SourceSansPro-ExtraLight.otf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "source-sans-pro";
+    src: url("Resources/source-sans-pro/SourceSansPro-Regular.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "source-sans-pro-italic";
+    src: url("Resources/source-sans-pro/SourceSansPro-It.otf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "source-sans-pro-extralight-italic";
+    src: url("Resources/source-sans-pro/SourceSansPro-ExtraLightIt.otf") format("truetype");
+    font-weight: 50;
+    font-style: italic;
+}
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+  font-family: "source-sans-pro", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #071629;
+}
+
+.bg-image{
+    background-image: url("Resources/background.png");
+     background-size: cover;                   
+      background-position: center;              
+      background-repeat: no-repeat;
+        height: 160vh;
+        padding: 2rem;
+        flex-direction: column;
+        position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "source-sans-pro-bold", sans-serif;
+}
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 65px;
+  font-family: "source-sans-pro-semibold", sans-serif;
+  font-size: 12px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+header a:focus,
+header a:hover {
+  text-decoration: underline;
+}
+
+.overlay{
+    color: white;
+    font-family: "source-sans-pro-bold", sans-serif;
+    margin-top: 8.5rem;
+}
+
+h1{
+    font-size: 7.5rem;
+    margin-bottom: 0;
+}
+
+h1 + .tags{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+button{
+    background: #C271FF;
+    color: #fff;
+    border: solid 1px #C271FF;
+   padding: 15px 20px;
+   border-radius: 22px;
+   font-size: 0.875rem;
+   cursor: pointer;
+   display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+
+.purple{
+    color: #C271FF
+}
+
+.teachers > h2{
+    margin-top: 9rem;
+    font-size: 2rem;
+}
+.teachers > h2 span:last-of-type {
+ font-family: "source-sans-pro-extralight", sans-serif;
+ font-weight: normal;
+}
+
+.teacher-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+
+.quote{
+    font-family: "source-sans-pro-light", sans-serif;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    background-color: #C271FF;
+    display: flex;
+    padding: 7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quote p{
+    text-align: left;
+    font-style: normal;
+    font-family: "source-sans-pro", sans-serif;
+    line-height: 1.5;
+    font-size: 1.375rem;
+    padding-left: 3rem;
+}
+.quote h3{
+    font-family: "source-sans-pro-bold", sans-serif;
+    font-size: 1.375rem;
+    margin-top: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+}
+ .quote article p:last-of-type{
+    font-family: "source-sans-pro-extralight-italic", sans-serif;
+    font-size: 1.375rem;
+    margin-top: 0.5rem;
+ }
+
+ .videos{
+    background-color: white;
+    color: #071629;
+    padding: 6.5rem 8.5rem;  
+ }
+
+.videos h2{
+        font-family: "source-sans-pro-extralight", sans-serif;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        }
+
+.videos h2 span:first-of-type{
+    font-family: "source-sans-pro-bold", sans-serif;
+}
+
+.video-resources{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    gap: 1rem;
+}
+.video-resources h3{
+    font-family: "source-sans-pro-bold", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    
+}
+
+.video-resources p{
+    font-family: "source-sans-pro", sans-serif;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.teacher{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 1rem;
+    color: #C271FF;
+   
+    
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stars i{
+    color: #C271FF;
+    padding: 0;
+    margin: 0;
+}
+.stars i:last-of-type{
+    color: #D8D8D8
+}
+.time{
+    color: #C271FF;
+    font-size: 0.875rem;
+    font-family: "source-sans-pro-semibold", sans-serif;
+}
+/*
+.video1{
+    display: flex;
+    justify-content: left;
+    width: 255px;
+    height: 335px;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.video1 p{
+    text-align: right;
+}
+    /*
+.video1 h3{
+    font-family: "source-sans-pro-semibold", sans-serif;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+.video1 p{
+    font-family: "source-sans-pro", sans-serif;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+.video1 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.video1 div p{
+    font-family: "source-sans-pro-semibold", sans-serif;
+    font-size: 0.875rem;
+    color: #C271FF;
+}
+.video1 div i{
+    color: #C271FF;
+}*/
